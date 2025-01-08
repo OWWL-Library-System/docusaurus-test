@@ -23,8 +23,19 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  plugins: ["@orama/plugin-docusaurus-v3"],
-
+  plugins: [
+    [
+      "@orama/plugin-docusaurus-v3",
+      {
+        cloud: {
+          indexId: "i93xbyg6wv3tl703reg2cmpn",
+          oramaCloudAPIKey: process.env.ORAMA_CLOUD_API_KEY, // Env variable suggested
+          deploy: false | "default" | "snapshot-only", // Enables deploy while building/starting
+        },
+      },
+    ],
+  ],
+  
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
