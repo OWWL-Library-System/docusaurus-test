@@ -28,7 +28,7 @@ const config: Config = {
       "@orama/plugin-docusaurus-v3",
       {
         cloud: {
-          indexId: "i93xbyg6wv3tl703reg2cmpn",
+          indexId: process.env.ORAMA_CLOUD_INDEX_ID,
           oramaCloudAPIKey: process.env.ORAMA_CLOUD_API_KEY, // Env variable suggested
           deploy: false | "default" | "snapshot-only", // Enables deploy while building/starting
         },
