@@ -30,7 +30,7 @@ const config: Config = {
         cloud: {
           indexId: process.env.ORAMA_CLOUD_INDEX_ID,
           oramaCloudAPIKey: process.env.ORAMA_CLOUD_API_KEY, // Env variable suggested
-          deploy: true, // Enables deploy while building/starting
+          deploy: false, // Enables deploy while building/starting
         },
       },
     ],
