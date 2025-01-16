@@ -17,7 +17,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'danguarracino', // Usually your GitHub org/user name.
+  organizationName: 'OWWL-Library-System', // Usually your GitHub org/user name.
   projectName: 'docusaurus-test', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -53,7 +53,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/danguarracino/docusaurus-test/docs/',
+            'https://github.com/OWWL-Library-System/docusaurus-test/docs/',
         },
         blog: {
           showReadingTime: true,
@@ -64,7 +64,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/danguarracino/docusaurus-test/changelog/',
+            'https://github.com/OWWL-Library-System/docusaurus-test/changelog/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -128,10 +128,6 @@ const config: Config = {
             {
               label: 'Changelog',
               to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
