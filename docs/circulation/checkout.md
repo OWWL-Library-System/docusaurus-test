@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Circulating Items
 
-## Check Out
+## Check Out!
 
 ### Regular Items
 
